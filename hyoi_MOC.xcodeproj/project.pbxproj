@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A439C642239124000E8459C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C632239124000E8459C /* AppDelegate.swift */; };
+		2A439C662239124000E8459C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C652239124000E8459C /* ViewController.swift */; };
+		2A439C692239124000E8459C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C672239124000E8459C /* Main.storyboard */; };
+		2A439C6C2239124000E8459C /* hyoi_MOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C6A2239124000E8459C /* hyoi_MOC.xcdatamodeld */; };
+		2A439C6E2239124200E8459C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C6D2239124200E8459C /* Assets.xcassets */; };
+		2A439C712239124200E8459C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C6F2239124200E8459C /* LaunchScreen.storyboard */; };
+		2A439C7C2239124200E8459C /* hyoi_MOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */; };
+		2A439C872239124200E8459C /* hyoi_MOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C862239124200E8459C /* hyoi_MOCUITests.swift */; };
+		2A439C952239128E00E8459C /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C942239128E00E8459C /* hyoi_icn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A439C782239124200E8459C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A439C582239123F00E8459C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A439C5F2239124000E8459C;
+			remoteInfo = hyoi_MOC;
+		};
+		2A439C832239124200E8459C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A439C582239123F00E8459C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A439C5F2239124000E8459C;
+			remoteInfo = hyoi_MOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A439C602239124000E8459C /* hyoi_MOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi_MOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A439C632239124000E8459C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A439C652239124000E8459C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A439C682239124000E8459C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A439C6B2239124000E8459C /* hyoi_MOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hyoi_MOC.xcdatamodel; sourceTree = "<group>"; };
+		2A439C6D2239124200E8459C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A439C702239124200E8459C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A439C722239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A439C772239124200E8459C /* hyoi_MOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi_MOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_MOCTests.swift; sourceTree = "<group>"; };
+		2A439C7D2239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A439C822239124200E8459C /* hyoi_MOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi_MOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A439C862239124200E8459C /* hyoi_MOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_MOCUITests.swift; sourceTree = "<group>"; };
+		2A439C882239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A439C942239128E00E8459C /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A439C5D2239124000E8459C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C742239124200E8459C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C7F2239124200E8459C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A439C572239123F00E8459C = {
+			isa = PBXGroup;
+			children = (
+				2A439C622239124000E8459C /* hyoi_MOC */,
+				2A439C7A2239124200E8459C /* hyoi_MOCTests */,
+				2A439C852239124200E8459C /* hyoi_MOCUITests */,
+				2A439C612239124000E8459C /* Products */,
+				2A439C942239128E00E8459C /* hyoi_icn.png */,
+			);
+			sourceTree = "<group>";
+		};
+		2A439C612239124000E8459C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A439C602239124000E8459C /* hyoi_MOC.app */,
+				2A439C772239124200E8459C /* hyoi_MOCTests.xctest */,
+				2A439C822239124200E8459C /* hyoi_MOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A439C622239124000E8459C /* hyoi_MOC */ = {
+			isa = PBXGroup;
+			children = (
+				2A439C632239124000E8459C /* AppDelegate.swift */,
+				2A439C652239124000E8459C /* ViewController.swift */,
+				2A439C672239124000E8459C /* Main.storyboard */,
+				2A439C6D2239124200E8459C /* Assets.xcassets */,
+				2A439C6F2239124200E8459C /* LaunchScreen.storyboard */,
+				2A439C722239124200E8459C /* Info.plist */,
+				2A439C6A2239124000E8459C /* hyoi_MOC.xcdatamodeld */,
+			);
+			path = hyoi_MOC;
+			sourceTree = "<group>";
+		};
+		2A439C7A2239124200E8459C /* hyoi_MOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */,
+				2A439C7D2239124200E8459C /* Info.plist */,
+			);
+			path = hyoi_MOCTests;
+			sourceTree = "<group>";
+		};
+		2A439C852239124200E8459C /* hyoi_MOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A439C862239124200E8459C /* hyoi_MOCUITests.swift */,
+				2A439C882239124200E8459C /* Info.plist */,
+			);
+			path = hyoi_MOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A439C5F2239124000E8459C /* hyoi_MOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A439C8B2239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOC" */;
+			buildPhases = (
+				2A439C5C2239124000E8459C /* Sources */,
+				2A439C5D2239124000E8459C /* Frameworks */,
+				2A439C5E2239124000E8459C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hyoi_MOC;
+			productName = hyoi_MOC;
+			productReference = 2A439C602239124000E8459C /* hyoi_MOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A439C762239124200E8459C /* hyoi_MOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A439C8E2239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOCTests" */;
+			buildPhases = (
+				2A439C732239124200E8459C /* Sources */,
+				2A439C742239124200E8459C /* Frameworks */,
+				2A439C752239124200E8459C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A439C792239124200E8459C /* PBXTargetDependency */,
+			);
+			name = hyoi_MOCTests;
+			productName = hyoi_MOCTests;
+			productReference = 2A439C772239124200E8459C /* hyoi_MOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A439C812239124200E8459C /* hyoi_MOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A439C912239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOCUITests" */;
+			buildPhases = (
+				2A439C7E2239124200E8459C /* Sources */,
+				2A439C7F2239124200E8459C /* Frameworks */,
+				2A439C802239124200E8459C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A439C842239124200E8459C /* PBXTargetDependency */,
+			);
+			name = hyoi_MOCUITests;
+			productName = hyoi_MOCUITests;
+			productReference = 2A439C822239124200E8459C /* hyoi_MOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A439C582239123F00E8459C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = unwithdrawal;
+				TargetAttributes = {
+					2A439C5F2239124000E8459C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2A439C762239124200E8459C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A439C5F2239124000E8459C;
+					};
+					2A439C812239124200E8459C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A439C5F2239124000E8459C;
+					};
+				};
+			};
+			buildConfigurationList = 2A439C5B2239123F00E8459C /* Build configuration list for PBXProject "hyoi_MOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A439C572239123F00E8459C;
+			productRefGroup = 2A439C612239124000E8459C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A439C5F2239124000E8459C /* hyoi_MOC */,
+				2A439C762239124200E8459C /* hyoi_MOCTests */,
+				2A439C812239124200E8459C /* hyoi_MOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A439C5E2239124000E8459C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A439C712239124200E8459C /* LaunchScreen.storyboard in Resources */,
+				2A439C952239128E00E8459C /* hyoi_icn.png in Resources */,
+				2A439C6E2239124200E8459C /* Assets.xcassets in Resources */,
+				2A439C692239124000E8459C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C752239124200E8459C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C802239124200E8459C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A439C5C2239124000E8459C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A439C6C2239124000E8459C /* hyoi_MOC.xcdatamodeld in Sources */,
+				2A439C662239124000E8459C /* ViewController.swift in Sources */,
+				2A439C642239124000E8459C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C732239124200E8459C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A439C7C2239124200E8459C /* hyoi_MOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A439C7E2239124200E8459C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A439C872239124200E8459C /* hyoi_MOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A439C792239124200E8459C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A439C5F2239124000E8459C /* hyoi_MOC */;
+			targetProxy = 2A439C782239124200E8459C /* PBXContainerItemProxy */;
+		};
+		2A439C842239124200E8459C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A439C5F2239124000E8459C /* hyoi_MOC */;
+			targetProxy = 2A439C832239124200E8459C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A439C672239124000E8459C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A439C682239124000E8459C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A439C6F2239124200E8459C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A439C702239124200E8459C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A439C892239124200E8459C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A439C8A2239124200E8459C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A439C8C2239124200E8459C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A439C8D2239124200E8459C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A439C8F2239124200E8459C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hyoi_MOC.app/hyoi_MOC";
+			};
+			name = Debug;
+		};
+		2A439C902239124200E8459C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hyoi_MOC.app/hyoi_MOC";
+			};
+			name = Release;
+		};
+		2A439C922239124200E8459C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hyoi_MOC;
+			};
+			name = Debug;
+		};
+		2A439C932239124200E8459C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hyoi_MOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hyoi-MOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hyoi_MOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A439C5B2239123F00E8459C /* Build configuration list for PBXProject "hyoi_MOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A439C892239124200E8459C /* Debug */,
+				2A439C8A2239124200E8459C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A439C8B2239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A439C8C2239124200E8459C /* Debug */,
+				2A439C8D2239124200E8459C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A439C8E2239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A439C8F2239124200E8459C /* Debug */,
+				2A439C902239124200E8459C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A439C912239124200E8459C /* Build configuration list for PBXNativeTarget "hyoi_MOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A439C922239124200E8459C /* Debug */,
+				2A439C932239124200E8459C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A439C6A2239124000E8459C /* hyoi_MOC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A439C6B2239124000E8459C /* hyoi_MOC.xcdatamodel */,
+			);
+			currentVersion = 2A439C6B2239124000E8459C /* hyoi_MOC.xcdatamodel */;
+			path = hyoi_MOC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A439C582239123F00E8459C /* Project object */;
+}
