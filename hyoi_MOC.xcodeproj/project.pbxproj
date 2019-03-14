@@ -15,7 +15,7 @@
 		2A439C712239124200E8459C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C6F2239124200E8459C /* LaunchScreen.storyboard */; };
 		2A439C7C2239124200E8459C /* hyoi_MOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */; };
 		2A439C872239124200E8459C /* hyoi_MOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C862239124200E8459C /* hyoi_MOCUITests.swift */; };
-		2A439C952239128E00E8459C /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C942239128E00E8459C /* hyoi_icn.png */; };
+		2A439C9B223A2A5900E8459C /* hyoi_icn through.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C9A223A2A5900E8459C /* hyoi_icn through.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		2A439C822239124200E8459C /* hyoi_MOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi_MOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A439C862239124200E8459C /* hyoi_MOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_MOCUITests.swift; sourceTree = "<group>"; };
 		2A439C882239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A439C942239128E00E8459C /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
+		2A439C9A223A2A5900E8459C /* hyoi_icn through.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hyoi_icn through.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				2A439C7A2239124200E8459C /* hyoi_MOCTests */,
 				2A439C852239124200E8459C /* hyoi_MOCUITests */,
 				2A439C612239124000E8459C /* Products */,
-				2A439C942239128E00E8459C /* hyoi_icn.png */,
+				2A439C9A223A2A5900E8459C /* hyoi_icn through.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A439C712239124200E8459C /* LaunchScreen.storyboard in Resources */,
-				2A439C952239128E00E8459C /* hyoi_icn.png in Resources */,
 				2A439C6E2239124200E8459C /* Assets.xcassets in Resources */,
+				2A439C9B223A2A5900E8459C /* hyoi_icn through.png in Resources */,
 				2A439C692239124000E8459C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

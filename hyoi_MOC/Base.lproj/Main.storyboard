@@ -18,10 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDT-jS-BX0">
-                                <rect key="frame" x="0.0" y="11" width="375" height="656"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GX-uG-QLP">
+                                <rect key="frame" x="16" y="20" width="343" height="636"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="hyoi_icn.png"/>
+                                <state key="normal" image="hyoi_icn"/>
+                                <connections>
+                                    <segue destination="g0V-3o-XhH" kind="modal" id="IWP-vB-tSQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,8 +35,105 @@
             </objects>
             <point key="canvasLocation" x="132" y="133.5832083958021"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dzB-QS-XEZ">
+            <objects>
+                <viewController id="g0V-3o-XhH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hA8-r1-sy9" customClass="UIScrollView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4sz-cM-Ro8">
+                                <rect key="frame" x="16" y="36" width="343" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeBar" translatesAutoresizingMaskIntoConstraints="NO" id="VYi-wU-eYZ">
+                                <rect key="frame" x="0.0" y="619" width="375" height="48"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kg-1O-v4t">
+                                <rect key="frame" x="144" y="573" width="87" height="87"/>
+                                <state key="normal" image="videocam"/>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urO-Xk-f0r">
+                                <rect key="frame" x="0.0" y="24" width="375" height="587"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="urO-Xk-f0r" firstAttribute="leading" secondItem="VYi-wU-eYZ" secondAttribute="leading" id="0Oz-az-kNk"/>
+                            <constraint firstItem="urO-Xk-f0r" firstAttribute="top" secondItem="hA8-r1-sy9" secondAttribute="top" id="0fy-WA-PXJ"/>
+                            <constraint firstItem="urO-Xk-f0r" firstAttribute="leading" secondItem="hA8-r1-sy9" secondAttribute="leading" id="3NH-L8-VjZ"/>
+                            <constraint firstAttribute="trailing" secondItem="urO-Xk-f0r" secondAttribute="trailing" id="ADk-cr-aE3"/>
+                            <constraint firstItem="VYi-wU-eYZ" firstAttribute="top" secondItem="rfS-mx-Jbg" secondAttribute="top" constant="599" id="CQu-Dm-T6f"/>
+                            <constraint firstItem="rfS-mx-Jbg" firstAttribute="bottom" secondItem="urO-Xk-f0r" secondAttribute="bottom" constant="44" id="Fmj-DY-ykI"/>
+                            <constraint firstItem="urO-Xk-f0r" firstAttribute="trailing" secondItem="VYi-wU-eYZ" secondAttribute="trailing" id="aRh-Vc-iel"/>
+                            <constraint firstItem="5kg-1O-v4t" firstAttribute="leading" secondItem="rfS-mx-Jbg" secondAttribute="leading" constant="144" id="gil-iy-I7v"/>
+                            <constraint firstItem="VYi-wU-eYZ" firstAttribute="bottom" secondItem="rfS-mx-Jbg" secondAttribute="bottom" id="l8T-VO-YCb"/>
+                            <constraint firstItem="rfS-mx-Jbg" firstAttribute="bottom" secondItem="5kg-1O-v4t" secondAttribute="bottom" constant="7" id="lLj-Jl-CeX"/>
+                            <constraint firstItem="urO-Xk-f0r" firstAttribute="centerX" secondItem="5kg-1O-v4t" secondAttribute="centerX" id="mfY-fO-WKm"/>
+                            <constraint firstItem="5kg-1O-v4t" firstAttribute="top" secondItem="rfS-mx-Jbg" secondAttribute="top" constant="553" id="u5R-gC-PwH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rfS-mx-Jbg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Km8-oi-fbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yto-dc-PhB">
+            <objects>
+                <viewController id="kp9-uO-GVK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fq9-c8-uf9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aay-0V-wG3">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="コメントをここに入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XVd-RW-hg2">
+                                <rect key="frame" x="10" y="630" width="266" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O9-DD-aX8">
+                                <rect key="frame" x="335" y="628" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="♡">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg2-z5-TsC">
+                                <rect key="frame" x="288" y="628" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="hyoi_icn through"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mMe-p4-LrW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tsc-VM-25a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsr-sN-8Cc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="-564.46776611694156"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="hyoi_icn.png" width="120" height="120"/>
+        <image name="homeBar" width="775" height="96"/>
+        <image name="hyoi_icn" width="60" height="60"/>
+        <image name="hyoi_icn through" width="39" height="32.5"/>
+        <image name="videocam" width="147" height="148"/>
     </resources>
 </document>
