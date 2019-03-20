@@ -39,46 +39,26 @@
         <scene sceneID="dzB-QS-XEZ">
             <objects>
                 <viewController id="g0V-3o-XhH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hA8-r1-sy9" customClass="UIScrollView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="enz-CL-eXh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4sz-cM-Ro8">
-                                <rect key="frame" x="16" y="36" width="343" height="292"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeBar" translatesAutoresizingMaskIntoConstraints="NO" id="VYi-wU-eYZ">
-                                <rect key="frame" x="0.0" y="619" width="375" height="48"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kg-1O-v4t">
-                                <rect key="frame" x="144" y="573" width="87" height="87"/>
-                                <state key="normal" image="videocam"/>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urO-Xk-f0r">
-                                <rect key="frame" x="0.0" y="24" width="375" height="587"/>
-                            </scrollView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I17-Lk-K9d">
+                                <rect key="frame" x="0.0" y="1151" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <tabBarItem title="home" id="0JX-Da-qKN"/>
+                                    <tabBarItem title="My Page" id="Xap-vL-PaH"/>
+                                </items>
+                            </tabBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="urO-Xk-f0r" firstAttribute="leading" secondItem="VYi-wU-eYZ" secondAttribute="leading" id="0Oz-az-kNk"/>
-                            <constraint firstItem="urO-Xk-f0r" firstAttribute="top" secondItem="hA8-r1-sy9" secondAttribute="top" id="0fy-WA-PXJ"/>
-                            <constraint firstItem="urO-Xk-f0r" firstAttribute="leading" secondItem="hA8-r1-sy9" secondAttribute="leading" id="3NH-L8-VjZ"/>
-                            <constraint firstAttribute="trailing" secondItem="urO-Xk-f0r" secondAttribute="trailing" id="ADk-cr-aE3"/>
-                            <constraint firstItem="VYi-wU-eYZ" firstAttribute="top" secondItem="rfS-mx-Jbg" secondAttribute="top" constant="599" id="CQu-Dm-T6f"/>
-                            <constraint firstItem="rfS-mx-Jbg" firstAttribute="bottom" secondItem="urO-Xk-f0r" secondAttribute="bottom" constant="44" id="Fmj-DY-ykI"/>
-                            <constraint firstItem="urO-Xk-f0r" firstAttribute="trailing" secondItem="VYi-wU-eYZ" secondAttribute="trailing" id="aRh-Vc-iel"/>
-                            <constraint firstItem="5kg-1O-v4t" firstAttribute="leading" secondItem="rfS-mx-Jbg" secondAttribute="leading" constant="144" id="gil-iy-I7v"/>
-                            <constraint firstItem="VYi-wU-eYZ" firstAttribute="bottom" secondItem="rfS-mx-Jbg" secondAttribute="bottom" id="l8T-VO-YCb"/>
-                            <constraint firstItem="rfS-mx-Jbg" firstAttribute="bottom" secondItem="5kg-1O-v4t" secondAttribute="bottom" constant="7" id="lLj-Jl-CeX"/>
-                            <constraint firstItem="urO-Xk-f0r" firstAttribute="centerX" secondItem="5kg-1O-v4t" secondAttribute="centerX" id="mfY-fO-WKm"/>
-                            <constraint firstItem="5kg-1O-v4t" firstAttribute="top" secondItem="rfS-mx-Jbg" secondAttribute="top" constant="553" id="u5R-gC-PwH"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="rfS-mx-Jbg"/>
-                    </view>
+                        <viewLayoutGuide key="safeArea" id="l3a-qp-C2z"/>
+                    </scrollView>
+                    <size key="freeformSize" width="375" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Km8-oi-fbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1204" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1204" y="765"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yto-dc-PhB">
@@ -131,9 +111,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homeBar" width="775" height="96"/>
         <image name="hyoi_icn" width="60" height="60"/>
         <image name="hyoi_icn through" width="39" height="32.5"/>
-        <image name="videocam" width="147" height="148"/>
     </resources>
 </document>
