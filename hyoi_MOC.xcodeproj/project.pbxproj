@@ -16,6 +16,7 @@
 		2A439C7C2239124200E8459C /* hyoi_MOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */; };
 		2A439C872239124200E8459C /* hyoi_MOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C862239124200E8459C /* hyoi_MOCUITests.swift */; };
 		2A439C9B223A2A5900E8459C /* hyoi_icn through.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C9A223A2A5900E8459C /* hyoi_icn through.png */; };
+		2AAD0C20224C7EAB0082CD28 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2A439C862239124200E8459C /* hyoi_MOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_MOCUITests.swift; sourceTree = "<group>"; };
 		2A439C882239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A439C9A223A2A5900E8459C /* hyoi_icn through.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hyoi_icn through.png"; sourceTree = "<group>"; };
+		2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2A439C632239124000E8459C /* AppDelegate.swift */,
 				2A439C652239124000E8459C /* ViewController.swift */,
 				2A439C672239124000E8459C /* Main.storyboard */,
+				2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */,
 				2A439C6D2239124200E8459C /* Assets.xcassets */,
 				2A439C6F2239124200E8459C /* LaunchScreen.storyboard */,
 				2A439C722239124200E8459C /* Info.plist */,
@@ -266,6 +269,7 @@
 				2A439C6C2239124000E8459C /* hyoi_MOC.xcdatamodeld in Sources */,
 				2A439C662239124000E8459C /* ViewController.swift in Sources */,
 				2A439C642239124000E8459C /* AppDelegate.swift in Sources */,
+				2AAD0C20224C7EAB0082CD28 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
