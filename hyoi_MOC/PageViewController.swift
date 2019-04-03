@@ -12,7 +12,8 @@ struct PageSettings {
     static let pageControllerIdentifierList : [String] = [
         "VC-1",
         "VC-2",
-        "VC-3"
+        "VC-3",
+        "VC-4"
     ]
     
     static func generateViewControllerList() -> [UIViewController] {
