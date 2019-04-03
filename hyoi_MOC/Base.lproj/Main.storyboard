@@ -138,7 +138,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="IMG_2688"/>
                                 <connections>
-                                    <segue destination="Jmm-bx-ZGV" kind="modal" id="vyM-or-IlZ"/>
+                                    <segue destination="WZT-Bf-8A3" kind="modal" id="KSd-D7-dCb"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fEj-ub-ETu">
@@ -857,7 +857,7 @@
         <image name="userpage2" width="501" height="894"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="38R-ME-Mzg"/>
+        <segue reference="KSd-D7-dCb"/>
         <segue reference="Rsy-Vo-KYk"/>
         <segue reference="J0N-qo-IRP"/>
     </inferredMetricsTieBreakers>
