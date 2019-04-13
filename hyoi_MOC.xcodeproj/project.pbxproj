@@ -15,6 +15,7 @@
 		2A439C712239124200E8459C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A439C6F2239124200E8459C /* LaunchScreen.storyboard */; };
 		2A439C7C2239124200E8459C /* hyoi_MOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C7B2239124200E8459C /* hyoi_MOCTests.swift */; };
 		2A439C872239124200E8459C /* hyoi_MOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439C862239124200E8459C /* hyoi_MOCUITests.swift */; };
+		2A73F2102255AA20009398E0 /* GradationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A73F20F2255AA20009398E0 /* GradationView.swift */; };
 		2AAD0C20224C7EAB0082CD28 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		2A439C822239124200E8459C /* hyoi_MOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi_MOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A439C862239124200E8459C /* hyoi_MOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_MOCUITests.swift; sourceTree = "<group>"; };
 		2A439C882239124200E8459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A73F20F2255AA20009398E0 /* GradationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradationView.swift; sourceTree = "<group>"; };
 		2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				2A439C632239124000E8459C /* AppDelegate.swift */,
 				2AAD0C1F224C7EAB0082CD28 /* PageViewController.swift */,
 				2A439C652239124000E8459C /* ViewController.swift */,
+				2A73F20F2255AA20009398E0 /* GradationView.swift */,
 				2A439C672239124000E8459C /* Main.storyboard */,
 				2A439C6D2239124200E8459C /* Assets.xcassets */,
 				2A439C6F2239124200E8459C /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A439C6C2239124000E8459C /* hyoi_MOC.xcdatamodeld in Sources */,
+				2A73F2102255AA20009398E0 /* GradationView.swift in Sources */,
 				2A439C662239124000E8459C /* ViewController.swift in Sources */,
 				2A439C642239124000E8459C /* AppDelegate.swift in Sources */,
 				2AAD0C20224C7EAB0082CD28 /* PageViewController.swift in Sources */,
